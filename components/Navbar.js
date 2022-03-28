@@ -16,7 +16,7 @@ const Navbar = () => {
     // })
     // let bgcolor = router.pathname === '/' ? 'bg-red-200' : 'bg-blue-200';
     // let styleD = 'inline-block mr-4 ml-4  rounded-full  w-1/4 items-center text-center'
-    console.log(router.pathname)
+    // console.log(router.pathname)
 
     return (
         // <nav class="hidden sm:flex  flex-row font-bold border-solid  border-2 justify-center  py-4 items-center">

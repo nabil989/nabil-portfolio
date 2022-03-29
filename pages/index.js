@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title> Nabil Chowdhury</title>
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -33,6 +33,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   )
 }

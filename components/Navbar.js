@@ -2,14 +2,17 @@ import Link from "next/link";
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
-const Navbar = () => {
+const Navbar = ({toggle, isOpen}) => {
     const router = useRouter()
     return (
-        <div class=' flex flex-row flex-nowrap justify-start sm:justify-around h-8 w-full py-8 items-center mt-10 mb-24'>
-            <div className="w-1/8 flex hover:scale-105 duration-300 ml-7 mb-7 cursor-pointer sm:hidden" >
-                <svg className="w-8 h-8" fill="black" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <div class=' flex flex-row flex-nowrap justify-start sm:justify-around h-8 w-full py-8 items-center mt-10 sm:mb-24'>
+            <div className="w-1/8 flex hover:scale-105 duration-300 ml-7 mb-7 cursor-pointer sm:hidden" onClick={toggle}>
+                <svg class={isOpen ? 'hidden' : 'w-8 h-8'} className='w-8 h-8' fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>   
+                </svg>
+                <svg class={!isOpen ? 'hidden' : 'w-8 h-8'} className='w-8 h-8' fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" onClick={toggle}>
+                    <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg> 
             </div>
             <Link href="/"> 
                 <a class="hover:text-[gray] hidden md:block font-medium transiton ease-linear duration-300 text-sm md:text-base w-1/5 text-center" >Nabil Chowdhury</a>

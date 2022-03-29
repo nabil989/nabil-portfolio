@@ -2,7 +2,6 @@ import Link from 'next/Link'
 const Footer = () => {
     return ( 
         <footer class='flex flex-col mt-20 justify-center align-middle text-center space-y-5 mb-4'>
-
             <ul class='flex flex-row justify-center align-middle text-center font-bold space-x-6'>
                 <li>
                     <Link href='/'>

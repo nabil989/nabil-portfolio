@@ -3,7 +3,7 @@ const Photography = () => {
     return (
         <>
             <Head>
-                <title>Nabil | Photography</title>
+                <title>Photography</title>
             </Head>
             <p>photography stuff</p>
         </>

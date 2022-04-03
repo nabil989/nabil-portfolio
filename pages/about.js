@@ -17,9 +17,6 @@ const About = () => {
                 <div class='flex flex-col justify-center items-center space-y-12 w-2/5'>
                     <h class='font-bold text-3xl lg:text-4xl'>Technologies I frequently use</h>
                     <div class='grid gap-4 grid-cols-3 grid-rows-6 sm:grid-cols-6 sm:grid-rows-4'>
-                        <Link>
-                            
-                        </Link>>
                         <span>asd</span>
 
                         <span>asd</span>

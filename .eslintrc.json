@@ -1,4 +1,3 @@
 {
-  "extends": "next/core-web-vitals",
-  "react/no-unknown-property": [0, { "ignore": []}]
+  "extends": "next/core-web-vitals"
 }

@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
         <div>
             <Navbar toggle={toggle} isOpen={isOpen}/>
             <Dropdown isOpen={isOpen} toggle={toggle}/>
-            <main class={`transition-all duration-500 ${isOpen ? ' opacity-0 h-0 transition-none ease-out ' : 'opacity-100'}`}>
+            <main className={`transition-all duration-500 ${isOpen ? ' opacity-0 h-0 transition-none ease-out ' : 'opacity-100'}`}>
                 {children}
             </main>
             <Footer/> 

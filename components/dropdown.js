@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 const Dropdown = ({isOpen, toggle}) => {
     return (
         // grid grid-rows-4 text-center items-center bg-cyan-600

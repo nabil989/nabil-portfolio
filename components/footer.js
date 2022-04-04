@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 const Footer = () => {
     return ( 
         <footer className='flex flex-col mt-20 justify-center align-middle text-center space-y-5 mb-4'>

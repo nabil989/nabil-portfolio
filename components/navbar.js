@@ -5,7 +5,7 @@ const Navbar = ({toggle, isOpen}) => {
     const router = useRouter()
     return (
         <div className=' flex flex-row flex-nowrap justify-start sm:justify-around h-8 w-full py-8 items-center mt-10 sm:mb-24 select-none'>
-            <div classNameName="w-1/8 flex hover:scale-105 duration-300 ml-7 mb-7 cursor-pointer sm:hidden select-none" onClick={toggle}>
+            <div className="w-1/8 flex hover:scale-105 duration-300 ml-7 mb-7 cursor-pointer sm:hidden select-none" onClick={toggle}>
                 <svg className={`w-8 h-8 ${isOpen ? 'hidden' : ''}`}  fill="currentColor" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>

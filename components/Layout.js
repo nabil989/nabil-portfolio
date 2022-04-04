@@ -1,7 +1,7 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer.js";
+import Navbar from "./Navbar.js";
 import React, {useState, useEffect} from 'react';
-import Dropdown from "./Dropdown"
+import Dropdown from "./Dropdown.js"
 
 const Layout = ({ children }) => {
     const [isOpen, setOpen] = useState(false)

@@ -20,7 +20,7 @@ const About = () => {
                 <div className='flex flex-col justify-center items-center space-y-12 '>
                     
                     <h className='font-bold text-3xl lg:text-4xl'>Technologies I frequently use</h>
-                    <div className='grid gap-4 sm:gap-3 grid-cols-2 grid-rows-4 sm:grid-cols-4 sm:grid-rows-2 items-center text-center align-middle'>
+                    <div className='grid gap-4 sm:gap-3 grid-cols-4 grid-rows-2 sm:grid-cols-4 sm:grid-rows-2 items-center text-center align-middle'>
                         <div className='p-4 rounded-md hover:shadow-[0_0_60px_rgba(232,235,248,0.9)] transition-all ease-in-out duration-500 w-20 h-20 justify-center flex'>
                             <Link href='https://www.mongodb.com/' >
                                 <svg  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" className='w-13 h-13 ' viewBox="0 0 361.67651 499.33603"><path d="M203.77731,148.85754c-10.8147-12.762-20.13269-25.8139-22.02478-28.49224a.426.426,0,0,0-.70032.00006c-1.89172,2.6784-11.20758,15.73022-22.02191,28.49218-92.69141,118.085,14.62982,197.75507,14.62982,197.75507l.87.60461c.8136,12.32624,2.83508,30.041,2.83508,30.041H185.442s2.01282-17.63849,2.83-29.96106l.87549-.68451S296.46774,266.94257,203.77731,148.85754ZM181.404,344.88123h-.001s-4.811-4.10383-6.10962-6.16l-.01172-.22131,5.81946-128.56055a.30281.30281,0,0,1,.605,0l5.81946,128.a"></path></svg>

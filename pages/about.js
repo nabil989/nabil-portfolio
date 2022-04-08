@@ -67,23 +67,29 @@ const About = () => {
                 </div>
                 <div className='flex flex-col space-y-4 justify-center items-center'>
                     <Link href='https://drive.google.com/file/d/1st8dx72hylUbtG3ElWnURbn6IaXBx6w7/view?usp=sharing'>
-                        <h className='font-bold text-3xl hover:scale-105 ease-in-out duration-500 hover:text-gray-700'>My Resume</h>
+                        <h className=' font-bold text-3xl hover:scale-105 ease-in-out duration-500 hover:text-gray-700'>Link to my Resume</h>
                     </Link>
-                    <Canvas className='hidden'
-                        text={'https://drive.google.com/file/d/1st8dx72hylUbtG3ElWnURbn6IaXBx6w7/view?usp=sharing'}
-                        options={{
-                            type: 'image/jpeg',
-                            quality: 0.3,
-                            level: 'M',
-                            margin: 3,
-                            scale: 4,
-                            width: 300,
-                            color: {
-                            dark: '#000000',
-                            light: '#FFFFFF',
-                            },
-                        }}
-                    />
+                    <div className='hidden sm:block hover:scale-105 transition-all duration-500'>
+                        <Link href='https://drive.google.com/file/d/1st8dx72hylUbtG3ElWnURbn6IaXBx6w7/view?usp=sharing'>
+                            <div>
+                                <Canvas 
+                                    text={'https://drive.google.com/file/d/1st8dx72hylUbtG3ElWnURbn6IaXBx6w7/view?usp=sharing'}
+                                    options={{
+                                        type: 'image/jpeg',
+                                        quality: 0.3,
+                                        level: 'M',
+                                        margin: 3,
+                                        scale: 4,
+                                        width: 300,
+                                        color: {
+                                        dark: '#000000',
+                                        light: '#FFFFFF',
+                                        },
+                                    }}
+                                />
+                            </div>
+                        </Link>
+                    </div>
                 </div>
             </div>
             

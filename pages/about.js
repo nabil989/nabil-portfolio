@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link';
-import Image from 'next/image';
+import { useQRCode } from 'next-qrcode';
+
 const About = () => {
+    const { Canvas } = useQRCode();
     return (  
         <div>
             <Head>
@@ -13,12 +15,11 @@ const About = () => {
             </Head>
             <div className='flex flex-col justify-center items-center space-y-24 pt-4 sm:pt-0'>
                 <div className='flex flex-col justify-center items-center space-y-12 '>
-                    <h className='font-bold text-3xl lg:text-6xl'>Lifelong Learner</h>
+                    <h className='font-bold text-3xl lg:text-6xl'>Lifelong learner.</h>
                     
-                    <p className='text-center text-xl md:text-base w-2/5 md:w-7/12'>Hi! My name's Nabil, but you probably already know that. In my freetime I like to read, solve puzzles, take weird and obscure photos, and workout.</p>
+                    <p className='text-center text-xl md:text-base w-4/5 md:w-7/12'>Hi! My name's Nabil, but you probably already know that. In my freetime I like to read, solve puzzles, take weird and obscure photos, and workout.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-12 '>
-                    
                     <h className='font-bold text-3xl lg:text-4xl'>Technologies I frequently use</h>
                     <div className='grid gap-4 sm:gap-3 grid-cols-4 grid-rows-2 sm:grid-cols-4 sm:grid-rows-2 items-center text-center align-middle'>
                         <div className='p-4 rounded-md hover:shadow-[0_0_60px_rgba(232,235,248,0.9)] transition-all ease-in-out duration-500 w-20 h-20 justify-center flex'>
@@ -63,6 +64,26 @@ const About = () => {
                             </Link>
                         </div>
                     </div>
+                </div>
+                <div className='flex flex-col space-y-4 justify-center items-center'>
+                    <Link href='https://drive.google.com/file/d/1st8dx72hylUbtG3ElWnURbn6IaXBx6w7/view?usp=sharing'>
+                        <h className='font-bold text-3xl hover:scale-105 ease-in-out duration-500 hover:text-gray-700'>My Resume</h>
+                    </Link>
+                    <Canvas className='hidden'
+                        text={'https://drive.google.com/file/d/1st8dx72hylUbtG3ElWnURbn6IaXBx6w7/view?usp=sharing'}
+                        options={{
+                            type: 'image/jpeg',
+                            quality: 0.3,
+                            level: 'M',
+                            margin: 3,
+                            scale: 4,
+                            width: 300,
+                            color: {
+                            dark: '#000000',
+                            light: '#FFFFFF',
+                            },
+                        }}
+                    />
                 </div>
             </div>
             

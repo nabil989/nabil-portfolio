@@ -19,7 +19,7 @@ const Footer = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href='mailto: nabilc377@utexas.edu'>
+                    <Link href='mailto: contact@nabil.social'>
                         <a className='hover:text-[gray] transiton ease-linear duration-300'>Contact</a>
                     </Link>
                 </li>

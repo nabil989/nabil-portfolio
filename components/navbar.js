@@ -51,7 +51,7 @@ const Navbar = ({toggle, isOpen}) => {
                 </ul>
             </nav>
             <div className='font-medium hidden lg:block  hover:text-[gray] text-sm lg:text-base transiton ease-linear duration-300 px-2 w-1/5 text-center'>
-                <Link href="mailto: nabilc377@utexas.edu" className=''>
+                <Link href="mailto: contact@nabil.social" className=''>
                     Contact
                 </Link>
             </div>

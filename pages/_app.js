@@ -11,9 +11,11 @@ function MyApp({ Component, pageProps, router }) {
                 },
                 pageAnimate: {
                     opacity: 1,
+                    translateY:-5,
                     transition: {
                       duration: .5
-                    }
+                    },
+
                 }
       }}>
         <Component {...pageProps}/>

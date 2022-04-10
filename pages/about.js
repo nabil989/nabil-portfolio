@@ -20,11 +20,11 @@ const About = () => {
                     <p className='text-center text-xl md:text-base w-4/5 md:w-7/12'>Hi! My name's Nabil, but you probably already know that. In my freetime I like to read, solve puzzles, take weird and obscure photos, and workout.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-12 '>
-                    <h className='font-bold text-3xl lg:text-4xl'>Technologies I frequently use</h>
+                    <h className='font-bold text-3xl lg:text-4xl text-center'>Technologies I frequently use</h>
                     <div className='grid gap-4 sm:gap-3 grid-cols-4 grid-rows-2 sm:grid-cols-4 sm:grid-rows-2 items-center text-center align-middle'>
                         <div className='p-4 rounded-md hover:shadow-[0_0_60px_rgba(232,235,248,0.9)] transition-all ease-in-out duration-500 w-20 h-20 justify-center flex'>
                             <Link href='https://www.mongodb.com/' >
-                                <svg  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" className='w-13 h-13 ' viewBox="0 0 361.67651 499.33603"><path d="M203.77731,148.85754c-10.8147-12.762-20.13269-25.8139-22.02478-28.49224a.426.426,0,0,0-.70032.00006c-1.89172,2.6784-11.20758,15.73022-22.02191,28.49218-92.69141,118.085,14.62982,197.75507,14.62982,197.75507l.87.60461c.8136,12.32624,2.83508,30.041,2.83508,30.041H185.442s2.01282-17.63849,2.83-29.96106l.87549-.68451S296.46774,266.94257,203.77731,148.85754ZM181.404,344.88123h-.001s-4.811-4.10383-6.10962-6.16l-.01172-.22131,5.81946-128.56055a.30281.30281,0,0,1,.605,0l5.81946,128.a"></path></svg>
+                                <svg  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" className='w-12 h-12' viewBox="0 0 361.67651 499.33603"><path d="M203.77731,148.85754c-10.8147-12.762-20.13269-25.8139-22.02478-28.49224a.426.426,0,0,0-.70032.00006c-1.89172,2.6784-11.20758,15.73022-22.02191,28.49218-92.69141,118.085,14.62982,197.75507,14.62982,197.75507l.87.60461c.8136,12.32624,2.83508,30.041,2.83508,30.041H185.442s2.01282-17.63849,2.83-29.96106l.87549-.68451S296.46774,266.94257,203.77731,148.85754ZM181.404,344.88123h-.001s-4.811-4.10383-6.10962-6.16l-.01172-.22131,5.81946-128.56055a.30281.30281,0,0,1,.605,0l5.81946,128.a"></path></svg>
                             </Link>
                         </div>
                         <div className='p-4 rounded-md hover:shadow-[0_0_60px_rgba(232,235,248,0.9)] transition-all ease-in-out duration-500 justify-center align-middle items-center flex h-20 w-20'>
@@ -59,7 +59,7 @@ const About = () => {
                             </Link>
                         </div>
                         <div className='p-4 rounded-md hover:shadow-[0_0_60px_rgba(232,235,248,0.9)] transition-all ease-in-out duration-500 justify-center align-middle items-center flex h-20 w-20'>
-                            <Link href='/'>
+                            <Link href='https://firebase.google.com/'>
                                 <svg xmlns="http://www.w3.org/2000/svg" className='w-7 h-7 ' viewBox="0 0 24 24"><path d="M20.5 19.364L18.296 5.365c-.044-.259-.261-.453-.524-.453-.146 0-.278.06-.375.158L3.5 19.364l7.69 4.428C11.413 23.923 11.681 24 11.966 24c.284 0 .551-.077.781-.211L20.5 19.364 20.5 19.364zM7.37.286C7.28.116 7.105 0 6.902 0 6.637 0 6.417.199 6.377.461L4.063 15.673 9.86 5.06 7.371.289 7.37.286zM14.251 7.148L12.47 3.666c-.091-.174-.267-.29-.47-.29-.203 0-.379.116-.469.287L11.53 3.666l-7.82 14.318L14.251 7.148z"/></svg>
                             </Link>
                         </div>

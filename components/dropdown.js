@@ -9,8 +9,8 @@ const Dropdown = ({isOpen, toggle}) => {
             <Link href='/about'>
                 <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>About</a>
             </Link>
-            <Link href='/bookmarks'>
-                <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>Bookmarks</a>
+            <Link href='/books'>
+                <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>Books</a>
             </Link>
             <Link href='/photography'>
                 <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>Photography</a>

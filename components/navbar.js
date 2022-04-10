@@ -34,8 +34,8 @@ const Navbar = ({toggle, isOpen}) => {
                         </Link> 
                     </li> */}
                     <li>
-                        <Link href="/bookmarks"> 
-                            <a className=" rounded-full py-3 hover:text-[gray] transiton ease-linear duration-300 px-3" style={{ background : router.pathname == "/bookmarks" ? "white" : ""}}>Bookmarks</a>
+                        <Link href="/books"> 
+                            <a className=" rounded-full py-3 hover:text-[gray] transiton ease-linear duration-300 px-3" style={{ background : router.pathname == "/books" ? "white" : ""}}>Books</a>
                         </Link> 
                     </li>
                     <li>

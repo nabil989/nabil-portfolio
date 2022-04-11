@@ -23,10 +23,30 @@ const Layout = ({ children }) => {
         <div>
             <Navbar toggle={toggle} isOpen={isOpen}/>
             <Dropdown isOpen={isOpen} toggle={toggle}/>
-            <main className={`transition-all duration-500 ${isOpen ? ' opacity-0 h-0 transition-none ease-out ' : 'opacity-100'}`}>
+            {/* <div className={`${isOpen ? 'overflow-hidden h-full' : 'hidden h-0'}`}>
+                <Footer/> 
+                <main className={`transition-all duration-500 ${isOpen ? ' opacity-0 h-0 transition-none ease-out ' : 'opacity-100'}`}>
+                    {children}
+                </main>
+            </div>
+            <div className={`${isOpen ? 'hidden h-0' : ''}`}>
+                <main className={`transition-all duration-500 ${isOpen ? ' opacity-0 h-0 transition-none ease-out ' : 'opacity-100'}`}>
+                    {children}
+                </main>
+                <Footer/> 
+
+            </div> */}
+            <div className={`${!isOpen ? 'hidden h-0' : ''}`}>
+                <Footer /> 
+            </div>
+            <main className={`transition-all duration-500 ${isOpen ? 'overflow-hidden opacity-0 h-0 transition-none ease-out ' : 'opacity-100'}`}>
                 {children}
             </main>
-            <Footer/> 
+            <div className={`${isOpen ? 'hidden h-0' : ''}`}>
+                <Footer /> 
+            </div>
+            
+            {/* <Footer className={`${isOpen ? 'hidden': ''}`}/>  */}
         </div>
     );
 }

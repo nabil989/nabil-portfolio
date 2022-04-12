@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
                 {children}
             </main>
             <div className={`${isOpen ? 'hidden h-0' : ''}`}>
-                <Footer toggle={toggle}/> 
+                <Footer/> 
             </div>
         </div>
     );

@@ -18,18 +18,18 @@ const Books = () => {
             <div className='hover:cursor-pointer grid gap-8 px-4 sm:px-0  sm:gap-16 grid-cols-3 grid-rows-2 align-middle justify-center items-center w-full sm:w-11/12 md:w-2/5 place-items-center'>
                 <div className='hover:scale-105 transition-all duration-300 '>
                     <Link href='/books/grit'>
-                        <Image width='250px' height='250px' src='/../public/book_covers/grit.jpeg'/>
+                        <Image width='250px' height='250px' src='/book_covers/grit.jpeg'/>
                     </Link>
                 </div>
                 <div className='hover:scale-105 transition-all duration-300 '>
                     <Link href='/books/grit'>
-                        <Image width='250px' height='250px' src='/../public/book_covers/grit.jpeg'/>
+                        <Image width='250px' height='250px' src='/book_covers/grit.jpeg'/>
                     </Link>
                 </div>
                 <div className='hover:scale-105 transition-all duration-300 '>
                     
                     <Link href='/books/grit'>
-                        <Image width='250px' height='250px' src='/../public/book_covers/grit.jpeg'/>
+                        <Image width='250px' height='250px' src='/book_covers/grit.jpeg'/>
                     </Link>
                 </div>
                 

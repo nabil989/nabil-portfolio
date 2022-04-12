@@ -13,10 +13,10 @@ const About = () => {
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
             </Head>
-            <div className='flex flex-col justify-center items-center space-y-24 pt-4 sm:pt-0'>
+            <div className='flex flex-col justify-center items-center space-y-16 pt-4 sm:pt-0'>
                 <div className='flex flex-col justify-center items-center space-y-12 '>
-                    <h className='font-bold text-3xl lg:text-6xl'>Lifelong learner.</h>
-                    <p className=' text-xl lg:text-lg w-3/4 md:w-2/3'>In my freetime I like to read a wide variety of <Link href='/books'><a className='font-bold border-solid border-b-2 border-black hover:border-none transition-all ease-in-out duration-200'>books</a></Link>, solve puzzles, and workout.</p>
+                    <h className='font-bold text-3xl lg:text-6xl'>Lifelong learner</h>
+                    <p className=' text-xl lg:text-lg w-3/4 md:w-7/8'>In my freetime I like to read a wide variety of <Link href='/books'><a className='font-bold border-solid border-b-2 border-black hover:border-none transition-all ease-in-out duration-200'>books</a></Link>, solve puzzles, and workout.</p>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-12 '>
                     <h className='font-bold text-2xl md:text-3xl lg:text-4xl text-center'>Technologies I frequently use</h>

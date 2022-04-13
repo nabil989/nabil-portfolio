@@ -38,11 +38,11 @@ const Navbar = ({toggle, isOpen}) => {
                             <a className=" rounded-full py-3 hover:text-[gray] transiton ease-linear duration-300 px-3" style={{ background : router.pathname.substring(0,6) == "/books" ? "white" : ""}}>Books</a>
                         </Link> 
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href="/photography"> 
                             <a className=" rounded-full py-3 hover:text-[gray] transiton ease-linear duration-300 px-3" style={{ background : router.pathname == "/photography" ? "white" : ""}}>Photography</a>
                         </Link> 
-                    </li>
+                    </li> */}
                     <li>
                         <Link href="/projects"> 
                             <a className=" rounded-full py-3 hover:text-[gray] transiton ease-linear duration-300 px-3" style={{ background : router.pathname == "/projects" ? "white" : ""}}>Projects</a>

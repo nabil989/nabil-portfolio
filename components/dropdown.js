@@ -12,9 +12,9 @@ const Dropdown = ({isOpen, toggle}) => {
             <Link href='/books'>
                 <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>Books</a>
             </Link>
-            <Link href='/photography'>
+            {/* <Link href='/photography'>
                 <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>Photography</a>
-            </Link>
+            </Link> */}
             <Link href='/projects'>
                 <a className='hover:text-[gray] transiton ease-linear duration-300 mr-auto'>Projects</a>
             </Link>

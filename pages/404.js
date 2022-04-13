@@ -11,9 +11,9 @@ const NotFound = () => {
         }, 3000)
     }, [])
     return (
-        <div>
-            <h1>Oops...</h1>
-            <h2>That page cannot be found.</h2>
+        <div className='flex flex-col justify-center'>
+            <h1 className='font-semibold text-2xl'>Oops...</h1>
+            <h2 className='font-semibold text-xl'>That page cannot be found.</h2>
             <p className="text-3xl">
                 Go back to the <Link href="/"><a className="text-[#4979ff] underline">Homepage</a></Link>
             </p> 

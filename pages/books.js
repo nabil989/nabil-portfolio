@@ -15,13 +15,14 @@ const Books = () => {
                 <h1 className='font-bold text-5xl'>Intriguing Books</h1>
                 <p className='text-[#000000B3] text-lg w-full md:w-1/2 text-center'>Just a collection of books that I've read that I personally find to be interesting.</p>
             </div>
-            <div className='hover:cursor-pointer grid gap-8 px-4 sm:px-0  sm:gap-16 grid-cols-3 grid-rows-2 align-middle justify-center items-center w-full sm:w-11/12 md:w-2/5 place-items-center'>
-                <div className='hover:scale-105 transition-all duration-300 '>
+            <div className='hover:cursor-pointer grid gap-8 px-4 sm:px-0  sm:gap-16 grid-cols-3 grid-rows-1 align-middle justify-center items-center w-full sm:w-11/12 md:w-2/5 place-items-center'>
+                <div className='hover:scale-105 transition-all duration-300'>
                     <Link href='/books/grit'>
                         <Image width='250px' height='250px' src='/book_covers/grit.jpeg'/>
                     </Link>
                 </div>
-                <div className='hover:scale-105 transition-all duration-300 '>
+                
+                {/* <div className='hover:scale-105 transition-all duration-300 '>
                     <Link href='/books/grit'>
                         <Image width='250px' height='250px' src='/book_covers/grit.jpeg'/>
                     </Link>
@@ -31,10 +32,12 @@ const Books = () => {
                     <Link href='/books/grit'>
                         <Image width='250px' height='250px' src='/book_covers/grit.jpeg'/>
                     </Link>
-                </div>
+                </div> */}
                 
             </div>
-            
+            <div className='hover:cursor-default text-center text-xl'>
+                    <p className='text-center'>More to come soon...</p>
+            </div>
         </div>
     );
 }

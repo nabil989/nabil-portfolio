@@ -9,8 +9,8 @@ const Project = () => {
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
             </Head>
-            <div>
-                projects 
+            <div className='text-center flex justify-center align-center text-3xl'>
+                WIP Page. Come back later!
             </div>
         </div>
     );

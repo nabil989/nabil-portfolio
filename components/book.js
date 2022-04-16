@@ -12,7 +12,7 @@ const Book = (props) => {
                 </h>
             </div>
             <div className='flex flex-col'>
-                <div className=' md:text-lg md:w-3/4 w-4/5 mx-auto justify-center text-center  '>
+                <div className=' md:text-lg md:w-3/4 w-11/12 text-sm sm:text-base mx-auto justify-center text-center  '>
                     {props.thoughts}
                 </div>
             </div>

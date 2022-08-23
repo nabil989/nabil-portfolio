@@ -18,7 +18,7 @@ export default function Home() {
           <p className='text-[#00000099] text-3xl font-medium pt-2'>Aspiring Software Engineer</p>
         </div>
         <div className=' flex flex-col space-y-12 mx-auto w-4/5 md:w-2/3 lg:w-1/2 justify-center align-middle'> 
-          <p className='text-nowrap text-[#000000B3] text-center text-xl lg:text-base'>I am currently a Freshmen studying Computer Science at the University of Texas at Austin. I like to build apps in my free time just to mess around.</p>
+          <p className='text-nowrap text-[#000000B3] text-center text-xl lg:text-base'>I am currently a Junior studying Computer Science at the University of Texas at Austin. I like to build apps in my free time just to mess around.</p>
           <Link href="/about">
             <a className='transform transition-all hover:scale-105 duration-300 whitespace-nowrap text-center mx-auto w-3/5  sm:w-1/3 mt-12 border border-none rounded-lg bg-[#0E0E0E] text-white font-bold py-4 '>More about me ➝</a>
           </Link>
